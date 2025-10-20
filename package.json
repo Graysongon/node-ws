@@ -2,13 +2,13 @@
   "name": "node-ws",
   "version": "1.0.0",
   "description": "Node.js Server",
-  "main": "index.js",
+  "main": "main.js",
   "author": "eoovve",
   "repository": "https://github.com/eoovve/node-ws",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js"
+    "start": "node main.js"
   },
   "dependencies": {
     "ws": "^8.14.2",
