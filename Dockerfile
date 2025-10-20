@@ -7,7 +7,7 @@ COPY . .
 EXPOSE 3000
 
 RUN apk update && apk add --no-cache openssl curl &&\
-    chmod +x index.js &&\
+    chmod +x main.js &&\
     npm install
 
 CMD ["node", "main.js"]
