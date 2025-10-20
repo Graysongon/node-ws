@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'Dockerfile'
-      - 'index.js'
+      - 'main.js'
       - 'package.json'
   pull_request:
     branches: [ main ]
